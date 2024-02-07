@@ -1,13 +1,15 @@
-// import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-// class my_app extends StatelessWidget {
-//   const my_app({
-//     super.key,
-//   });
+class MyApp extends StatelessWidget {
+  const MyApp({
+    super.key,
+  });
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//         title: "Raj Industry", home: Container(color: Colors.blue));
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "Calinote",
+      home: Container(color: Colors.blue),
+    );
+  }
+}

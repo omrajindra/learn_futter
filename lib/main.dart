@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app/app.dart';
+
 void main() {
-  runApp(MaterialApp(
-    title: "Calinote",
-    home: Container(color: Colors.blue),
-  ));
+  runApp(const MyApp());
 }
