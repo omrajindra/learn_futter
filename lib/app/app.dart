@@ -9,7 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Calinote",
-      home: Container(color: Colors.blue),
+      home: Material(
+          child: Container(
+              color: Colors.blue,
+              child: Center(child: const Text("Hello World")))),
     );
   }
 }
