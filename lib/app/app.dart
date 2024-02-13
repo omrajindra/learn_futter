@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/views/home_view.dart';
+import 'package:helloworld/views/home_view_calulator.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({
@@ -8,6 +8,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: "Calinote", home: HomeView());
+    return MaterialApp(title: "Calinote", home: HomeCalculatorView());
   }
 }
